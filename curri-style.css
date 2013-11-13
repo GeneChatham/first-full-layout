@@ -1,0 +1,148 @@
+* {
+	margin:0px;
+	/*border: 1px solid black;*/
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.purpleText {
+	color: #2f337a;
+	font-size: 150%;
+}
+
+.littleWhite {
+	color: white;
+	font-size: 80%;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.content-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #f4f5f8;
+	/*height: 100px;*/
+	padding-bottom: 30px;
+}
+
+#logo {
+	display: inline-block;
+	float: left;
+	width: 25%;
+}
+
+#logo img {
+	width: 100%;
+}
+
+nav {
+	float: right;
+	height: 100%;
+}
+
+nav ul {
+	display: inline-block;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	padding: 10px;
+}
+
+nav ul li:hover {
+	background-color: white;
+}
+
+#hire-me {
+	background-color: #42acbd;
+	border-radius: 50%/50%;
+	display: inline-block;
+	float: right;
+	padding: 15px 10px 10px;
+	height: 36px;
+}
+
+#hire-me p{
+	color: white;
+	font-size: 10px;
+	padding: 10px;
+	-webkit-transform: rotate(322deg);
+	-moz-transform: rotate(322deg);
+	-o-transform: rotate(322deg);
+	writing-mode: lr-tb;
+}
+
+section {
+	/*height: 100px;*/
+}
+
+#profile {
+	background-color: #4a4e9b;
+}
+
+#profilepic img{
+	border-radius: 50%/50%;
+	border: 2px solid #686AA8;
+	margin-top: 20px;
+	width: 25%;
+	float: left;
+}
+
+#info {
+	width: 65%;
+	float: left;
+	padding-left: 5%;
+}
+
+#info h1 {
+	color: white;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+#profile button {
+	background-color: #f4f5f8;
+	padding: 5px;
+}
+
+#profile .content-wrapper {
+	/*padding: 5%;*/
+}
+
+#info div {
+	margin: 10px;
+}
+ 
+/*#profile div div{
+	float: left;
+}*/
+
+#firms {
+	background-color: #f4f5f8;		
+}
+
+#firms img {
+	width: 100%;
+}
+
+#work {
+	background-color: white;
+}
+
+#work img {
+	width: 100%;
+}
+
+
